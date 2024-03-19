@@ -1,9 +1,63 @@
-<?php
-// Conexão com o banco de dados
-$conn = new mysqli("localhost", "usuario", "senha", "nome_do_banco_de_dados");
+<?php 
+switch ($_REQUEST["acao"]) {
+    case 'cadastrar':
+        $nome = $_POST['nome'];
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+        $nascimento = $_POST['nascimento'];
 
-// Verifica a conexão
-if ($conn->connect_error) {
-    die("Conexão falhou: " . $conn->connect_error);
+        $sql = "INSERT INTO cadastros_gerais (nome, email, senha, nascimento) VALUES ('{$nome}',
+        '{$email}', '{$senha}', '{$nascimento}')";
+
+        $res = $conn->query($sql);
+        
+        if($res==true){
+            print "<script>alert('Cadastro realizado com sucesso');</script>";
+            print "<script>location.href='?page=listar';</script>";
+        } else{
+            print "<script>alert('Não foi possivel cadastrar');</script>";
+            print "<script>location.href='?page=listar';</script>";
+        }
+
+        break;
+
+    case 'editar':
+        $nome = $_POST['nome'];
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+        $nascimento = $_POST['nascimento'];
+
+        $sql = "UPDATE cadastros_gerais SET nome='{$nome}',email='{$email}',senha='{$senha}'
+        ,nascimento='{$nascimento}' WHERE id=".$_REQUEST['id'];
+
+        $res = $conn->query($sql);
+        
+        if($res==true){
+            print "<script>alert('Editado com sucesso');</script>";
+            print "<script>location.href='?page=listar';</script>";
+        } else{
+            print "<script>alert('Não foi possivel editar');</script>";
+            print "<script>location.href='?page=listar';</script>";
+        }
+
+        break;
+
+    case 'excluir':
+        $sql = "DELETE FROM cadastros_gerais WHERE id=".$_REQUEST["id"];
+        $res = $conn ->query($sql);
+
+        if($res==true){
+            print "<script>alert('Excluido com sucesso');</script>";
+            print "<script>location.href='?page=listar';</script>";
+        } else{
+            print "<script>alert('Não foi possivel excluir');</script>";
+            print "<script>location.href='?page=listar';</script>";
+        }
+        
+        break;
 }
 
+
+?>
+
+ 
