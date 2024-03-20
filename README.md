@@ -1,4 +1,4 @@
-"#sistema_cadastro" 
+"# sistema_cadastro" 
 
 O objetivo desse projeto é fornecer informações sobre a implementação do sistema de cadastros de usuários PHP e MySQL. O sistema permite realizar operações básicas de gerenciamento de usuários, como criar novos registros, visualizar usuários existentes, editar informações de usuários e excluir registros de usuários.
 
@@ -37,6 +37,7 @@ Após o cadastro, os usuários devem poder fazer login no sistema.
 O Laragon, se conecta com banco de dados e executa consultas de forma extremamente simples. Atualmente, o Laragon suporta quatro sistemas de bancos de dados: MySQL, Postgres, SQLite, e SQL Server
 
 ![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/fcca82ab-9e76-41db-b8b9-a0f19f48bdae)
+
 iniciar tudo: Inicia todas as extensões instaladas no seu Laragon.
 Web: Direciona você para uma página com informações sobre a instância do Laragon que está rodando.
 Banco de dados : Gerencia suas conexões de banco de dados, e permite acessar os mesmos via HeidiSQL (mais sobre essa ferramenta adiante).
@@ -84,7 +85,8 @@ Abra o Laragon. Clique no botão direito do menu e acesse a pasta 'web' ('Cadast
 
 ## Conteudo dos código-fonte  
 
-![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/d7de39b1-4a03-47fa-8f06-4650210cc607)
+![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/2bd8f533-9671-4b27-bd40-d6612504cecf)
+
 
 
 
