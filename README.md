@@ -8,21 +8,22 @@ O objetivo desse projeto é fornecer informações sobre a implementação do si
 
 ###  	Funcionalidade
 
-•	Cadastro de novos usuários
-•	Visualização de usuários cadastrados
-•	Edição de informações de usuários
-•	Exclusão de usuários
+1)	Cadastro de novos usuários
+2)	Visualização de usuários cadastrados
+3)	Edição de informações de usuários
+4)	Exclusão de usuários
 
 
 
 ### Pré-requisitos 
 
-•	 Instalar o Laragon
-•	Servidor web ( Apache) com PHP instalado
-•	Banco de dados MySQL
-•	Instalar Framework Frontend bootstrap 5
-•	Conexão com a internet (para fazer o download de bibliotecas e dependências, se necessário)
-•	Um editor de código de sua preferência
+1)	 Instalar o Laragon
+2)	Servidor web ( Apache) com PHP instalado
+3)	Banco de dados MySQL
+4)	Instalar Framework Frontend bootstrap 5
+5)	Conexão com a internet (para fazer o download de bibliotecas e dependências, se necessário)
+6)	Um editor de código de sua preferência.
+
 
 ### Requisitos técnico do Sistema: 
 
@@ -37,6 +38,7 @@ Após o cadastro, os usuários devem poder fazer login no sistema.
 O Laragon, se conecta com banco de dados e executa consultas de forma extremamente simples. Atualmente, o Laragon suporta quatro sistemas de bancos de dados: MySQL, Postgres, SQLite, e SQL Server
 
 ![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/fcca82ab-9e76-41db-b8b9-a0f19f48bdae)
+
 
 iniciar tudo: Inicia todas as extensões instaladas no seu Laragon.
 Web: Direciona você para uma página com informações sobre a instância do Laragon que está rodando.
@@ -57,18 +59,28 @@ Faça login no phpMyAdmin: Na página de login do phpMyAdmin, você precisará f
 
 Após fazer login, você será redirecionado para a interface principal do phpMyAdmin. No menu lateral esquerdo, você verá uma seção chamada "Banco de dados". Clique nessa seção.
 
+
 ![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/4e46da3f-1b2b-4323-8f62-168534ecc7f3)
+
 
 Para criar um banco de dados chamado "cadastros", você será redirecionado para a interface. Coloque o nome da tabela como "cadastro_gerais" e defina o número de colunas como 5.
 Obs: Nomeei dessa forma, pois, caso contrário, será necessário modificar o código
 
 
-instalação do Bootstrap 
+### Instalação do Bootstrap 
+
 ![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/f6536ec9-3751-401d-9bfd-a09f2cfa173b)
+
 
 Após a instalação do bootstrap 4 , acesse o VS CODE  e digite b4,para abrir os comandos CSS e html copilados 
 
 ![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/fbfc6361-ba96-431d-a929-7606fbdaadd0)
+
+
+
+
+
+
 
 
 
@@ -79,11 +91,19 @@ Após a instalação do bootstrap 4 , acesse o VS CODE  e digite b4,para abrir o
 
 Abra o Laragon. Clique no botão direito do menu e acesse a pasta 'web' ('Cadastro') para acessar o projeto web."
 
+
 ![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/b06ac09f-435e-413d-bd44-ec8c9b223a04)
 
 
 
-## Conteudo dos código-fonte  
+
+
+
+
+### Conteúdo dos código-fonte  
+
+
+
 
 ![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/2bd8f533-9671-4b27-bd40-d6612504cecf)
 
@@ -102,9 +122,19 @@ Um arquivo database.sql contendo o script para criar a estrutura inicial do banc
 
 
 
+
 ### USO
 
+
+
 ![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/6c3661d3-95fe-467a-902d-4a490fd14a65)
+
+
+
+
+
+
+
 
 
 
@@ -112,6 +142,9 @@ Um arquivo database.sql contendo o script para criar a estrutura inicial do banc
 1)	Cadastre um novo usuário clicando no link "Cadastrar Usuário" na página inicial.
 2)	Visualize os usuários cadastrados clicando no link "Listar Usuários".
 3)	Para editar ou excluir um usuário, clique nos links correspondentes na lista de usuários
+
+
+
 
 
 
