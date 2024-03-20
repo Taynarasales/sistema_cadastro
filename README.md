@@ -46,10 +46,10 @@ Banco de dados : Gerencia suas conexões de banco de dados, e permite acessar os
 Terminal: Abre a linha de comando do servidor (Utiliza Cmder, falaremos mais sobre ele).
 Root: Navegar pelos Arquivos locais dos seus projetos.
 
-## phpMYAdimin
+## phpMYAdmin
 
  O phpMyAdmin para gerenciar o seu banco de dados MySQL dentro do cPanel. O phpMyAdmin é uma ferramenta via web bastante poderosa e versátil, que lhe permite realizar praticamente qualquer operação na linguagem SQL com seu banco de dados 
- ### tutorial de uso do phpMYAdimin
+ ### tutorial de uso do phpMYAdmin
 
 
  Inicie o Laragon: Primeiro, inicie o Laragon em seu computador. Você pode fazer isso a partir do ícone na área de trabalho ou do menu de programas.
@@ -64,7 +64,22 @@ Após fazer login, você será redirecionado para a interface principal do phpMy
 
 
 Para criar um banco de dados chamado "cadastros", você será redirecionado para a interface. Coloque o nome da tabela como "cadastro_gerais" e defina o número de colunas como 5.
-Obs: Nomeei dessa forma, pois, caso contrário, será necessário modificar o código
+Obs: Nomeei dessa forma, pois, caso contrário, será necessário modificar o código.
+
+![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/5d2867d8-db56-495d-a2cf-db6948925cd9)
+
+##configuração dos campos  da tabela
+
+•	ID INT AUTO_INCREMENT PRIMARY KEY: Este é um campo de identificação único para cada usuário, que é automaticamente incrementado sempre que um novo usuário é adicionado. Ele também é definido como a chave primária da tabela.
+
+•	Nome VARCHAR(255): Este campo armazena o nome do usuário, com um limite de 100 caracteres.
+
+•	Email VARCHAR(255) UNIQUE: Este campo armazena o endereço de e-mail do usuário e é marcado como único para garantir que não haja duplicatas de e-mails na tabela.
+•	Senha VARCHAR(255): Este campo armazena a senha do usuário.
+
+
+•	DataNascimento DATE: Este campo armazena a data de nascimento do usuários
+
 
 
 ### Instalação do Bootstrap 
