@@ -138,10 +138,25 @@ Um arquivo database.sql contendo o script para criar a estrutura inicial do banc
 
 
 ### USO
+![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/c330f0fb-426a-483f-88a5-0663ae7a9c93)
+
+
+
+
+
+
+
+
+
 
 
 
 ![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/6c3661d3-95fe-467a-902d-4a490fd14a65)
+
+
+
+
+
 
 
 
