@@ -69,12 +69,22 @@ Obs: Nomeei dessa forma, pois, caso contrário, será necessário modificar o c�
 
 ### Instalação do Bootstrap 
 
-![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/f6536ec9-3751-401d-9bfd-a09f2cfa173b)
+![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/a909663c-7a7b-476d-a207-a69cb833da86)
 
 
-Após a instalação do bootstrap 4 , acesse o VS CODE  e digite b4,para abrir os comandos CSS e html copilados 
+
+
+
+
+
+Após a instalação do bootstrap 4 , acesse o VS CODE  e digite b4,para abrir os comandos CSS e html copilados.
+
+
+
+
 
 ![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/fbfc6361-ba96-431d-a929-7606fbdaadd0)
+
 
 
 
@@ -87,12 +97,16 @@ Após a instalação do bootstrap 4 , acesse o VS CODE  e digite b4,para abrir o
 ![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/10d7f4d9-f8db-4653-812b-e6e8c1175955)
 
 
-## inicio do projeto 
+### inicio do projeto 
+
 
 Abra o Laragon. Clique no botão direito do menu e acesse a pasta 'web' ('Cadastro') para acessar o projeto web."
 
 
-![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/b06ac09f-435e-413d-bd44-ec8c9b223a04)
+
+![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/eb954b9a-b057-4e30-99bf-3c0640f32987)
+
+
 
 
 
@@ -104,8 +118,8 @@ Abra o Laragon. Clique no botão direito do menu e acesse a pasta 'web' ('Cadast
 
 
 
+![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/93522971-aff2-46b0-8818-ff7aaf279430)
 
-![image](https://github.com/Taynarasales/sistema_cadastro/assets/90871074/2bd8f533-9671-4b27-bd40-d6612504cecf)
 
 
 
